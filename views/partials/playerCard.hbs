@@ -1,0 +1,17 @@
+<div class="col-md-4">
+  <div class="card">
+    <img class="card-img-top" src="{{this.photo}}" alt="" />
+    <div class="card-body">
+      <h5 class="card-title"> {{this.name}} </h5>
+      <p class="card-text"> {{this.team}} </p>
+    </div>
+    {{#each average}}
+      <div class="col-md-6">
+        <p>{{year}}</p>
+      </div>
+      <div class="col-md-6">
+        <p>{{points}}</p>
+      </div>
+    {{/each}}
+  </div>
+</div>
