@@ -1,0 +1,13 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My first view</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+  </head>
+  <body>
+    <h1>Hello {{name}} {{lastName}}!</h1>
+    {{#with address}}
+      <p>{{street}}, {{number}}</p>
+    {{/with}}
+  </body>
+</html>
